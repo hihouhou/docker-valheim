@@ -9,7 +9,7 @@ FROM debian:latest
 
 MAINTAINER hihouhou < hihouhou@hihouhou.com >
 
-ENV VALHEIM_VERSION 0.211.11
+ENV VALHEIM_VERSION 0.214.2
 
 # Update & install packages for grafana
 RUN apt-get update && \
