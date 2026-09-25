@@ -9,7 +9,7 @@ FROM debian:latest
 
 LABEL org.opencontainers.image.authors="hihouhou < hihouhou@hihouhou.com >"
 
-ENV VALHEIM_VERSION=1.0.15
+ENV VALHEIM_VERSION=1.0.16
 
 # Update & install packages for grafana
 RUN apt-get update && \
